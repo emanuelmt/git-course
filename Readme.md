@@ -6,23 +6,16 @@ Quer saber mais sobre mim? Dá uma olhadinha no meu [LinkedIn](https://www.linke
 
 **Aprendi sobre:**
 - Inicialização de repositórios
-
-*Status dos arquivos*
-<ul>
-    <li>»» untracked (o arquivo ainda não é monitorado pelo git)</li>
-    <li>»» unmodified (o arquivo já foi adicionado mas não possui modificações)</li>
-    <li>   - Ocorre após o commit do arquivo que estava como **staged**</li>
-    <li>»» modified (o arquivo foi modificado mas ainda não foi adicionado à uma nova versão)</li>
-    <li>»» staged (o arquivo foi adicionado à nova versão e aguarda o commit)</li>
-    <li>
-        <ul>
-            <li>**»» COMANDOS**</li>
-            <li>⇸ git add **file_name** (adiciona o arquivo para o *staged*)</li>
-            <li>⇸ git commit -m "message" (faz o *commit* dos arquivos que estão no *staged* passando a ficarem com o status *unmodified*)</li>
-            <li>⇸ git commit -am "message" (adiciona o arquivo para o *staged* e faz o *commit* com uma mensagem)</li>
-        </ul>
-    </li>
-</ul>
+- Status dos arquivos
+    - **untracked** (o arquivo ainda não é monitorado pelo git)
+    - **unmodified** (o arquivo já foi adicionado mas não possui modificações)
+        - Ocorre após o commit do arquivo que estava como **staged**
+    - **modified** (o arquivo foi modificado mas ainda não foi adicionado à uma nova versão)
+    - **staged** (o arquivo foi adicionado à nova versão e aguarda o commit)
+    - ***COMANDOS***
+        - git add **file_name** (adiciona o arquivo para o *staged*)
+        - git commit -m "message" (faz o *commit* dos arquivos que estão no *staged* passando a ficarem com o status *unmodified*)
+        - git commit -am "message" (adiciona o arquivo para o *staged* e faz o *commit* com uma mensagem)
 - Status
 - Logs
 - Diffs
