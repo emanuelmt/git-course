@@ -8,14 +8,17 @@ Quer saber mais sobre mim? Dá uma olhadinha no meu [LinkedIn](https://www.linke
 - Inicialização de repositórios
 - Ciclo de vida dos status
 - Commits
-    - git commit -am "Mensagem" (comando que já adiciona o arquivo para o *staged* e faz o *commit* com uma mensagem)
+    - git commit -am "message" (comando que já adiciona o arquivo para o *staged* e faz o *commit* com uma mensagem)
 - Status
 - Logs
 - Diffs
 - Checkout (desfaz o que foi alterado no arquivo, antes de ser enviado ao *staged*)
 - Reset
-    - git reset HEAD file.name (remove o arquivo do *staged*)
+    - git reset HEAD **file_name** (remove o arquivo do *staged*)
     - git reset --soft **commit_hash** (remove o *commit* e retorna o arquivo para o *staged*)
     - git reset --mixed **commit_hash** (remove o *commit* e retorna o arquivo para antes do *staged*)
     - git reset --hard **commit_hash** (remove tudo que foi feito no *commit*)
     * Tem que ser informado o hash do commit anterior ao que deseja resetar
+- Branchs
+    - git checkout -b **branch_name** (cria uma nova *branch*)
+    - git merge **branch_name** (mescla a *branch* atual com a *branch* informada)
