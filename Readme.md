@@ -29,8 +29,10 @@ Quer saber mais sobre mim? Dá uma olhadinha no meu [LinkedIn](https://www.linke
 - Branchs
     - git checkout -b **branch_name** (cria uma nova *branch*)
     - git merge **branch_name** (mescla a *branch* atual com a *branch* informada)
-- Repositórios Remotos
-    - Após criar um repósitório no GitHub, serão apresentadas instruções para vincular o repositório local com o remoto:
-        - git remote add origin https://github.com/gituser/repo.git (irá fazer o vínculo com o repositório informado)
-    - git push -u origin master (envia as alterações locais para o repositório remoto) 
-    - git pull origin (busca as alterações remotas e faz um merge com o repositório local)
+**Repositórios Remotos**
+Após criar um repósitório no GitHub, serão apresentadas instruções para vincular o repositório local com o remoto:
+- git remote add origin https://github.com/gituser/repo.git (irá fazer o vínculo com o repositório informado)
+- git push -u origin master (envia as alterações locais para o repositório remoto) 
+- git pull origin (busca as alterações remotas e faz um merge com o repositório local)
+- git clone git@github.com:gituser/repo.git (realiza o clone do repositório localmente utilizando SSH)
+- git clone https://github.com/gituser/repo.git (realiza o clone do repositório localmente utilizando HTTPS)
