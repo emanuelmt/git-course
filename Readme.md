@@ -25,7 +25,12 @@ Quer saber mais sobre mim? Dá uma olhadinha no meu [LinkedIn](https://www.linke
     - git reset --soft **commit_hash** (remove o *commit* e retorna o arquivo para o *staged*)
     - git reset --mixed **commit_hash** (remove o *commit* e retorna o arquivo para antes do *staged*)
     - git reset --hard **commit_hash** (remove tudo que foi feito no *commit*)
-    * Tem que ser informado o hash do commit anterior ao que deseja resetar
+    ***Tem que ser informado o hash do commit anterior ao que deseja resetar***
 - Branchs
     - git checkout -b **branch_name** (cria uma nova *branch*)
     - git merge **branch_name** (mescla a *branch* atual com a *branch* informada)
+- Repositórios Remotos
+    - Após criar um repósitório no GitHub, serão apresentadas instruções para vincular o repositório local com o remoto:
+        - git remote add origin https://github.com/gituser/repo.git (irá fazer o vínculo com o repositório informado)
+    - git push -u origin master (envia as alterações locais para o repositório remoto) 
+    - git pull origin (busca as alterações remotas e faz um merge com o repositório local)
